@@ -31,6 +31,9 @@ public class PhuongTrinhBacHai {
             System.out.print("c=");
             c = Integer.parseInt(oBufferedReader.readLine());
             
+            Calculate oCalculate = new Calculate();
+            oCalculate.giaiPhuongTrinhBacHai(a, b, c);
+            
         }catch(Exception e){
             System.out.println(e.toString());
         }
